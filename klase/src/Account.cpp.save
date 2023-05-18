@@ -1,0 +1,22 @@
+#include "Account.h"
+
+void Account::setName(){
+    name = n;
+}
+
+string Account:: getName(){
+    return name;
+}
+
+bool Account::deposit(double amount){
+    if (amount > 0){
+         balance += amount;
+         return true;
+    }
+     else
+        return false;
+}
+
+bool Account::withdraw(double amount){
+    if (balance-a)
+}
